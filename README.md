@@ -60,6 +60,10 @@ Search for all voters with a specified email address ending in "proton.me"
 python voterq.py 20261109_Detail/ --where email='@proton.me' --fields all --ndjson > privacy_emails.json
 ```
 
+Return the number of voters with a public records exemption
+```
+python voterq.py 20261109_Detail/ --where public_records_exemption='Y' --fields all --count
+```
 
 ## Example JSON Result Commands
 
